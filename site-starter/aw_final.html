@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="style/meyer-reset.css" >
+<link rel="stylesheet" type="text/css" href="style/style.css" >
+<link rel="stylesheet" type="text/css" href="js/libs/jquery-ui.min.css" >
+
+<script src="js/libs/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="js/libs/jquery-ui.min.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+	
+	<div class="page-content scroll-outer">
+		<!-- so the absolutely-positioned sidebar takes up space -->
+		<!-- if you want a sidebar it oughta be a hover feature, no need tho -->
+		<!-- <div class="main-sidebar-outer"> 
+			<div class="main-sidebar sidebar scroll-inner">
+				<div class="sidebar-item"> section one </div>
+				<div class="sidebar-item"> section two </div>
+				<div class="sidebar-item"> section three </div>
+			</div>
+		</div> -->
+		<div class="sections">
+			<div class="section one scroll-outer"> <!-- no leading numbers in classes -->
+				<!--  nth-child doesn't account class, could have done nth-of-type if type was <section> -->
+				<div class="section-footer"> 
+					<div class="section-title scroll-inner"> section one </div>
+				</div>
+				<div class="section-content"></div>
+			</div>
+			<div class="section two scroll-outer"> 
+				<div class="section-footer"> 
+					<div class="section-title scroll-inner"> section two </div>
+				</div>
+				<div class="section-content"> </div>
+			</div>
+			<div class="section three scroll-outer"> 
+				<div class="section-footer"> 
+					<div class="section-title scroll-inner"> section three </div>
+				</div>
+				<div class="section-content"> </div>
+			</div>
+		</div>
+	</div> <!-- page content -->
+	<div class="page-footer">
+	</div>
+	
+
+</body>
+<footer>
+	<script src="js/scroll.js" type="text/javascript"></script>
+</footer>
+</html>
