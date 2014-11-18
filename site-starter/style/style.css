@@ -42,7 +42,6 @@
 .sections {
 	display: inline-block;
 	flex-grow: 1;
-
 }
 
 .sections:before {
@@ -52,8 +51,7 @@
 .section {
 	position: relative;
 	display: block;
-	/*width: 100vw;*/
-	/*height: 100vh;*/
+	min-height: 100vh;
 }
 
 .section-title {

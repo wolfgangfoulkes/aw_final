@@ -13,8 +13,8 @@ jQuery(document).ready(function($) {
             w.x = $(window).width();
             w.y = $(window).height();
             
-            console.log("window.x", w.x);
-            console.log("window.y", w.y);
+            // console.log("window.x", w.x);
+            // console.log("window.y", w.y);
         },
         
         scrollFix: function() {
@@ -49,7 +49,7 @@ jQuery(document).ready(function($) {
                 $inner.toggleClass("scroll", (state == "scroll") );
                 $inner.toggleClass("above-scroll", (state == "above-scroll") );
 
-                console.log("index_i", index_i, "bottom_o", bottom_o, "top_o:", top_o, "bottom_i", bottom_i, "scr_t", scr_t, "scr_b", scr_b, "state", state);
+                // console.log("index_i", index_i, "bottom_o", bottom_o, "top_o:", top_o, "bottom_i", bottom_i, "scr_t", scr_t, "scr_b", scr_b, "state", state);
             });
         }
     };
